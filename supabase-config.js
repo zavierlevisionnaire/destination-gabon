@@ -1,6 +1,5 @@
 // Configuration publique Supabase de Destination Gabon.
-// Renseigner les deux valeurs depuis Project Settings > API.
-// La clé anon/publishable est destinée au navigateur et protégée par les politiques RLS.
-// NE JAMAIS placer ici une clé service_role ou une clé secrète.
-window.DG_SUPABASE_URL = "COLLER_URL_SUPABASE";
-window.DG_SUPABASE_ANON_KEY = "COLLER_CLE_ANON_OU_PUBLISHABLE";
+// Cette clé publishable est conçue pour le navigateur ; les politiques RLS protègent les données.
+// Ne jamais placer une clé secret/service_role dans ce fichier.
+window.DG_SUPABASE_URL = "https://snpcymhujnnjivdsvrsm.supabase.co";
+window.DG_SUPABASE_ANON_KEY = "sb_publishable_uTlOWdJxmyqMmj2cLRo0kA_Y9_8vzp1";
